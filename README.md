@@ -1,4 +1,4 @@
-# WalletConnect v0.7.x
+# WalletConnect v1.0.x
 
 ## Introduction
 
