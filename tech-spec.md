@@ -52,6 +52,8 @@ Call requests are triggered by the Dapp when the User is requested to sign a JSO
 
 ### Session Requests
 
+![Establishing Connection](assets/establishing-connection.svg)
+
 1. Desktop Dapp requests Bridge server to generate a new session ID
 2. Desktop Dapp generates a session symmetric Key
 3. Desktop Dapp prompts user to scan QR Code with session data
@@ -62,6 +64,8 @@ Call requests are triggered by the Dapp when the User is requested to sign a JSO
 8. Desktop Dapp decrypts the User’s accounts with symmetric Key
 
 ### Call Requests
+
+![Call Requests](assets/call-request.svg)
 
 1. Desktop Dapp encrypts data into a call request with symmetric key
 2. Desktop Dapp sends the call request to the Bridge using the session ID
