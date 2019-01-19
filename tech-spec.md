@@ -52,7 +52,7 @@ Call requests are triggered by the Dapp when the User is requested to sign a JSO
 
 ### Session Requests
 
-<img alt="Establishing Connection" src="assets/establishing-connection.svg" width="100%">
+<object data="assets/establishing-connection.svg" type="image/svg+xml">
 
 1. Desktop Dapp requests Bridge server to generate a new session ID
 2. Desktop Dapp generates a session symmetric Key
