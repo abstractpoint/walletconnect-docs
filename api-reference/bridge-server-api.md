@@ -2,7 +2,7 @@
 description: Bridge Server relays requests securely between Dapps and user's Wallet. Also used to send push messages to an optional Push Server.
 ---
 
-# Bridge server API Reference
+# Bridge server API
 
 ## For Dapps
 
