@@ -1,6 +1,6 @@
-# For Wallets (React-Native SDK)
+# For your Wallet
 
-1.  Install
+1. Install
 
 ```bash
 /**
@@ -21,9 +21,9 @@ npm install --save rn-walletconnect-wallet
 rn-nodeify --install "crypto" --hack
 ```
 
-2.  Example
+1. Example
 
-```js
+```javascript
 import RNWalletConnect from 'rn-walletconnect-wallet'
 
 /**
@@ -105,3 +105,4 @@ walletConnector.rejectCallRequest(
   callId
 )
 ```
+

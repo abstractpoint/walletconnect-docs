@@ -1,6 +1,6 @@
-# For Dapps (Browser SDK)
+# For your Dapp
 
-1.  Install
+1. Install
 
 ```bash
 yarn add walletconnect
@@ -10,9 +10,9 @@ yarn add walletconnect
 npm install --save walletconnect
 ```
 
-2.  Example
+1. Example
 
-```js
+```javascript
 import WalletConnect from "walletconnect";
 import WalletConnectQRCodeModal from "walletconnect-qrcode-modal";
 
@@ -144,9 +144,9 @@ try {
 }
 ```
 
-## For Dapps using Web3 Provider (web3.js)
+## For Dapps using Web3 Provider \(web3.js\)
 
-1.  Install
+1. Install
 
 ```bash
 /**
@@ -160,9 +160,9 @@ yarn add web3 walletconnect-web3-provider
 npm install --save web3 walletconnect-web3-provider
 ```
 
-2.  Example
+1. Example
 
-```js
+```javascript
 import Web3 from 'web3'
 import WalletConnectProvider from 'walletconnect-web3-provider'
 
@@ -221,3 +221,4 @@ const signedMessage = await web3.eth.sign(msg)
  */
 const signedTypedData = await web3.eth.signTypedData(msg)
 ```
+

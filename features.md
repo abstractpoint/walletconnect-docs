@@ -1,8 +1,10 @@
 ---
-description: Features of WalletConnect protocol, and advantages compared to other solutions.
+description: >-
+  Features of WalletConnect protocol, and advantages compared to other
+  solutions.
 ---
 
-# Features of WalletConnect protocol
+# Features
 
 ## Secure connection
 
@@ -16,3 +18,4 @@ description: Features of WalletConnect protocol, and advantages compared to othe
 * Users don't require any prior knowledge of the protocol
 * Simple instructions to connect to Dapps
 * Support for all popular browsers and all types of smartphones
+

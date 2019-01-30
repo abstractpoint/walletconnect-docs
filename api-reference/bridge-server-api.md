@@ -1,5 +1,7 @@
 ---
-description: Bridge Server relays requests securely between Dapps and user's Wallet. Also used to send push messages to an optional Push Server.
+description: >-
+  Bridge Server relays requests securely between Dapps and user's Wallet. Also
+  used to send push messages to an optional Push Server.
 ---
 
 # Bridge server API
@@ -20,7 +22,7 @@ description: Bridge Server relays requests securely between Dapps and user's Wal
   }
 ```
 
-### Get Session details (short-polling)
+### Get Session details \(short-polling\)
 
 ```bash
   GET https://bridge.walletconnect.org/session/<sessionId>
@@ -57,7 +59,7 @@ description: Bridge Server relays requests securely between Dapps and user's Wal
   }
 ```
 
-### Get Call status (short-polling)
+### Get Call status \(short-polling\)
 
 ```bash
   GET https://bridge.walletconnect.org/call-status/<callId>
@@ -138,3 +140,4 @@ description: Bridge Server relays requests securely between Dapps and user's Wal
   Response:
   Status: 200
 ```
+
