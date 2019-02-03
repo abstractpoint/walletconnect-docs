@@ -8,7 +8,7 @@ WalletConnect is an open protocol to communicate securely between Wallets and Da
 
 Currently the WalletConnect protocol has references implementations written in Typescript for the Client SDK \(browser/react-native\), the Bridge Server and the Push server.
 
-To quickly setup for your Dapp or Wallet, go to [Quick Start](quick-start.md) for code examples.
+To quickly setup for your Dapp or Wallet, go to [Quick Start](quick-start/) for code examples.
 
 To read in more detail about the WalletConnect protocol, go to [Technical Specification](tech-spec.md)
 

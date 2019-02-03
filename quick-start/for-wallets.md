@@ -2,13 +2,13 @@
 description: Quick Start For Wallets With Examples
 ---
 
-# Quick Start For Wallets \(Client SDK - react-native\)
+# For Wallets
 
 {% hint style="info" %}
 You can use the **Example Dapp** to test your integration at [example.walletconnect.org](https://example.walletconnect.org) \([Source code](https://github.com/WalletConnect/walletconnect-example-dapp)\)
 {% endhint %}
 
-### Install
+## Install
 
 {% tabs %}
 {% tab title="yarn" %}
@@ -34,7 +34,7 @@ rn-nodeify --install --hack
 /**
  *  Install NPM Package
  */
- 
+
 npm install --save @walletconnect/react-native
 
 /**
@@ -48,7 +48,7 @@ rn-nodeify --install --hack
 {% endtab %}
 {% endtabs %}
 
-### Initiate Connection
+## Initiate Connection
 
 ```javascript
 import RNWalletConnect from '@walletconnect/react-native'
@@ -87,7 +87,7 @@ walletConnector.on("call_request", (error, payload) => {
   }
 
   // Handle Call Request
-  
+
   /* payload:
   {
     id: 1,
@@ -110,7 +110,7 @@ walletConnector.on("disconnect", (error, payload) => {
 });
 ```
 
-### Manage Connection
+## Manage Connection
 
 ```javascript
 /**
@@ -137,7 +137,7 @@ walletConnector.rejectSession()
 walletConnector.killSession()
 ```
 
-### Manage Call Requests
+## Manage Call Requests
 
 ```javascript
 /**
@@ -156,3 +156,4 @@ walletConnector.rejectRequest({
   result: null
 });
 ```
+

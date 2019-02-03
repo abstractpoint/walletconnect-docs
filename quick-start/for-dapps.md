@@ -2,13 +2,13 @@
 description: Quick Start For Dapps with Examples
 ---
 
-# Quick Start For Dapps \(Client SDK - browser\)
+# For Dapps \(Browser\)
 
 {% hint style="info" %}
 You can use the **Mock Wallet** to test your integration at [test.walletconnect.org](https://test.walletconnect.org) \([Source code](https://github.com/WalletConnect/walletconnect-mock-wallet)\)
 {% endhint %}
 
-### Install
+## Install
 
 {% tabs %}
 {% tab title="yarn" %}
@@ -25,11 +25,10 @@ npm install --save @walletconnect/browser
 {% endtabs %}
 
 {% hint style="info" %}
-Syntax shown below is Javascript ES6 which requires bundling and transpiling to run in web browsers. 
-If unfamiliar we recommend setting up an environment using [Webpack Starter](https://github.com/wbkd/webpack-starter) or [Create React App](https://github.com/facebook/create-react-app)
+Syntax shown below is Javascript ES6 which requires bundling and transpiling to run in web browsers. If unfamiliar we recommend setting up an environment using [Webpack Starter](https://github.com/wbkd/webpack-starter) or [Create React App](https://github.com/facebook/create-react-app)
 {% endhint %}
 
-### Initiate Connection
+## Initiate Connection
 
 ```javascript
 import WalletConnect from "@walletconnect/browser";
@@ -92,7 +91,7 @@ walletConnector.on("disconnect", (error, payload) => {
 });
 ```
 
-### Send Transaction
+## Send Transaction
 
 ```javascript
 /**
@@ -116,7 +115,7 @@ walletConnector
     .catch(console.error);
 ```
 
-### Sign Message
+## Sign Message
 
 ```javascript
 /**
@@ -136,7 +135,7 @@ walletConnector
     .catch(console.error);
 ```
 
-### Sign Typed Data
+## Sign Typed Data
 
 ```javascript
 /**
@@ -191,3 +190,4 @@ walletConnector
     .then(console.log)
     .catch(console.error);
 ```
+
