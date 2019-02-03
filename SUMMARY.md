@@ -10,4 +10,5 @@
 * [API Reference](api-reference/README.md)
   * [Bridge server API](api-reference/bridge-server-api.md)
   * [Push server API](api-reference/push-server-api.md)
+* [Test page](test-page.md)
 
